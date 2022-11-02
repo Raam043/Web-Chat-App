@@ -16,7 +16,7 @@ function randomNumber(max, min = 0) {
 
 // generate chat object
 function chatGenerator(index) {
-    const names = ["Mario Speedwagon", "Petey Cruiser", "Anna Sthesia", "Paul Molive", "Anna Mull", "Gail Forcewind", "Paige Turner", "Bob Frapples", "Walter Melon", "Nick R. Bocker", "Barb Ackue", "Buck Kinnear", "Greta Life", "Ira Membrit", "Shonda Leer", "Brock Lee", "Maya Didas", "Rick O'Shea", "Pete Sariya", "Monty Carlo", "Sal Monella", "Sue Vaneer", "Cliff Hanger", "Barb Dwyer", "Terry Aki", "Cory Ander", "Robin Banks", "Jimmy Changa", "Barry Wine", "Wilma Mumduya", "Buster Hyman", "Poppa Cherry", "Zack Lee", "Don Stairs", "Saul T. Balls", "Peter Pants", "Hal Appeno", "Otto Matic", "Moe Fugga", "Graham Cracker", "Tom Foolery", "Al Dente", "Bud Wiser", "Polly Tech", "Holly Graham", "Frank N. Stein", "Cam L. Toe", "Pat Agonia", "Tara Zona", "Barry Cade"]
+    const names = ["RHK", "Sagar Patil", "Sai Krishna R", "Umesh N", "Uday Rock", "Gangothri SP", "PX43", "Dad", "Tippu", "Nick R. Bocker", "Boss", "Vaijunath Apchande", "Bhagyashree", "Srusthi", "Shonda Leer", "Anna", "Maya Didas", "Rick O'Shea", "Pete Sariya", "Monty Carlo", "Sal Monella", "Sue Vaneer", "Cliff Hanger", "Barb Dwyer", "Terry Aki", "Cory Ander", "Robin Banks", "Jimmy Changa", "Barry Wine", "Wilma Mumduya", "Buster Hyman", "Poppa Cherry", "Zack Lee", "Don Stairs", "Saul T. Balls", "Peter Pants", "Hal Appeno", "Otto Matic", "Moe Fugga", "Graham Cracker", "Tom Foolery", "Al Dente", "Bud Wiser", "Polly Tech", "Holly Graham", "Frank N. Stein", "Cam L. Toe", "Pat Agonia", "Tara Zona", "Barry Cade"]
     const name = names[index];
     let lastseen = randomDate().toLocaleDateString().replace(/\//g, ".");
     if (index % 3 === 0)
