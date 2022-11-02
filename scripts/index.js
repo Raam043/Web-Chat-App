@@ -12,13 +12,7 @@ const authedUser = {
     username: "Raam043",
     online: true,
     lastSeen: "Today",
-    avatar: "https://github.com/Raam043/Pipeline-HTML/blob/master/profile.jpg"img {
-  display: block;
-  max-width:128px;
-  max-height:128px;
-  width: auto;
-  height: auto;
-}
+    avatar: "https://github.com/Raam043/Pipeline-HTML/master/profile.jpg"
 };
 
 // create instance of ChatApp,
