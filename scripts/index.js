@@ -12,7 +12,7 @@ const authedUser = {
     username: "Raam043",
     online: true,
     lastSeen: "Today",
-    avatar: "https://randomuser.me/api/portraits/lego/2.jpg"
+    avatar: "My project-1.png"
 };
 
 // create instance of ChatApp,
