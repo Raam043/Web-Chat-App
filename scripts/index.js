@@ -8,7 +8,7 @@ for (let i = 1; i < numberOfChats; i++) {
 // this is the signed-in user object
 const authedUser = {
     id: '12',
-    name: "Ramesh Biradar",
+    name: "Ramesh",
     username: "Raam043",
     online: true,
     lastSeen: "Today",
